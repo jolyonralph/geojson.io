@@ -19,6 +19,26 @@ module.exports = [
     title: 'Dark',
     style: 'mapbox://styles/mapbox/dark-v11'
   },
+
+{
+  "title": "Burwell",
+  "style": {
+    "name": "burwell",
+    "version": 8,
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "sources": {
+      "burwell-raster-tiles": {
+        "type": "raster",
+        "tiles": ["https://macrostrat.org/api/v2/maps/burwell/emphasized/{z}/{x}/{y}/tile.png"],
+        "tileSize": 256,
+        "attribution": "Maps &copy; <a href=\"http://macrostrat.org/\">Macrostrat</a>"
+      }
+    }
+  }
+},
+
+			
+  
   {
     title: 'OSM',
     style: {
